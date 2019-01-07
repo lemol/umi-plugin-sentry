@@ -1,5 +1,7 @@
 # umi-plugin-sentry
 
+[![NPM version](https://img.shields.io/npm/v/umi-plugin-sentry.svg?style=flat)](https://npmjs.org/package/umi-plugin-sentry)
+
 Umi plugin for sentry.
 
 ## Use
@@ -18,12 +20,7 @@ export default {
 
 ## Options
 
-`type: [Object]`
-
-### Props
-
-| name                | type               | default                                      |
-|---------------------|--------------------|----------------------------------------------|
-| dsn                 | string (required)  | `process.env.SENTRY_DSN`                     |
-| log                 | boolean (optional) | `NODE_ENV === 'development' ? true : false`  |
-
+| name                               | type               | default                                      |
+|------------------------------------|--------------------|----------------------------------------------|
+| dsn                                | string (required)  | `process.env.SENTRY_DSN`                     |
+| log (log to console before send)   | boolean (optional) | `NODE_ENV === 'development' ? true : false`  |
