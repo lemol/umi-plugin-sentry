@@ -21,8 +21,8 @@ export default function (api, opts = {}) {
       ...opts,
     };
 
-    if(!defaultOptions.dsn) {
-      api.log.error(`The 'dsn' option is required for the sentry plugin`);
+    if(process.env.NODE_ENV === 'production' && !options.dsn) {
+      api.log.error(`In production the 'sentry dsn' option is required.`);
     }
 
     const loadSentryOptions = JSON.stringify(options);

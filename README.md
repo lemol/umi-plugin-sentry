@@ -20,7 +20,7 @@ export default {
 
 ## Options
 
-| name                               | type               | default                                      |
-|------------------------------------|--------------------|----------------------------------------------|
-| dsn                                | string (required)  | `process.env.SENTRY_DSN`                     |
-| log (log to console before send)   | boolean (optional) | `NODE_ENV === 'development' ? true : false`  |
+| name                               | type                             | default                                      |
+|------------------------------------|----------------------------------|----------------------------------------------|
+| dsn                                | string (required in production)  | `process.env.SENTRY_DSN`                     |
+| log (log to console before send)   | boolean (optional)               | `NODE_ENV === 'development' ? true : false`  |
