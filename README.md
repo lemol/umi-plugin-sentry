@@ -4,6 +4,12 @@
 
 Umi plugin for sentry.
 
+## Install
+
+```bash
+yarn add --dev umi-plugin-sentry # OR npm install --save-dev umi-plugin-sentry
+```
+
 ## Use
 
 Just setup the plugin on `.umirc.js`
