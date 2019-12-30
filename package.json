@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/lemol/umi-plugin-sentry#readme",
   "dependencies": {
-    "@sentry/browser": "^4.4.0"
+    "@sentry/browser": "^5.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
