@@ -31,10 +31,10 @@
     "@sentry/browser": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "babel-preset-latest-node": "^2.0.2"
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
+    "babel-preset-latest-node": "2.1.0"
   },
   "files": [
     "lib",
